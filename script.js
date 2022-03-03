@@ -36,7 +36,7 @@ function timerCount() {
   intervalCount = setInterval(() => {
     count <= 28 ? count++ : (count = 1);
     timer.innerHTML = count;
-  }, 50);
+  }, 80);
 }
 
 function prediction(str) {
